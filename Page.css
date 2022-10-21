@@ -1,10 +1,10 @@
 /*add nav bar*/
 .topnav {
-  background-color: blue;
+  background-color: #0F52BA;
   overflow: hidden;
 }
 
-/* edit top navbar */
+/* edit topnavbar */
 .topnav a {
   float: left;
   display: block;
@@ -12,7 +12,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -23,7 +23,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #00A36C;
   color: white;
 }
 
@@ -32,12 +32,13 @@
   display: none;
 }
 
-
-
-.logo-image{
-  width: auto;
-  height: 150px;
-  border-radius:;
-  overflow: hidden;
-  margin-top: -6px;
+/*add logo*/
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 190px;
+  height: 70px;
+  margin-right: 0px;
+  margin-top: 0px;   
+  float:left;
 }
