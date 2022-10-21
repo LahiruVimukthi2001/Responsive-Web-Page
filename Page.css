@@ -31,3 +31,13 @@
 .topnav .icon {
   display: none;
 }
+
+
+
+.logo-image{
+  width: auto;
+  height: 150px;
+  border-radius:;
+  overflow: hidden;
+  margin-top: -6px;
+}
