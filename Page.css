@@ -36,9 +36,21 @@
 .logo {
   display: inline-block;
   vertical-align: top;
-  width: 190px;
+  width: 200px;
   height: 70px;
   margin-right: 0px;
   margin-top: 0px;   
   float:left;
 }
+
+
+
+
+/*add nav bar*/
+.bnav {
+  background-color: #0F52BA;
+  overflow: fixed;
+  width:1518px;
+  height:50px;
+}
+
