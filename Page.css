@@ -7,7 +7,7 @@ body
 .topnav
  {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0047AB;
 }
 
 .topnav a 
@@ -62,35 +62,30 @@ body
   }
 }
 
-/**........*/
-
+/**bottom nav bar*/
 .bottomnav
  {
   overflow: hidden;
-  background-color: #333;
+  background-color:#0047AB;
+  margin-top: 600px;
+  height :50px;
 }
 
+.btext{padding-top: 15px;}
 
-@media screen and (max-width: 600px) 
+
+/* (A) PAGE WATERMARK */
+#watermark 
 {
-  .bottomnav a:not(:first-child) {display: none;}
-  .bottomnav a.icon {
-    float: right;
-    display: block;
-  }
+  /* STICK AT BOTTOM RIGHT */
+  position: fixed;
+  bottom: 35px;
+  right: 10px;
+  z-index: 999; 
+  /* TRANSPARENCY */
+  opacity: 0.5; 
+  /* COSMETICS */
+  text-align: right;
+  color: rgb(13, 0, 128);
 }
 
-@media screen and (max-width: 600px)
-{
-  .bottomnav.responsive {position: relative;}
-  .bottomnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .bottomnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
